@@ -19,7 +19,7 @@ const App = () => {
       </div>
       <div className="main">
         <Layout>
-          <div className="routs">
+          <div className="routes">
             <Routes>
               <Route exact path="/" element={<HomePage />} />
               <Route exact path="/exchanges" element={<Exchanges />} />
@@ -40,12 +40,12 @@ const App = () => {
           >
             Cryptoverse <br />
             All Rights Reserved
-            <Space>
-              <Link to="/">Home</Link>
-              <Link to="/exchanges">Exchanges</Link>
-              <Link to="/news">News</Link>
-            </Space>
           </Typography.Title>
+          <Space>
+            <Link to="/">Home</Link>
+            <Link to="/exchanges">Exchanges</Link>
+            <Link to="/news">News</Link>
+          </Space>
         </div>
       </div>
     </div>
