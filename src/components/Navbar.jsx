@@ -7,7 +7,7 @@ import {
 import { Button, Menu, Typography } from "antd";
 import Avatar from "antd/lib/avatar/avatar";
 import { Link } from "react-router-dom";
-import icon from "./images/cryptocurrency.png";
+import icon from "../images/cryptocurrency.png";
 
 const Navbar = () => {
   return (
